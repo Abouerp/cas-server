@@ -68,7 +68,7 @@ endpoints:
 # cas
 cas:
   theme:
-    defaultThemeName: zsjs
+    defaultThemeName: abouerp
   logout:
     followServiceRedirects: true
     removeDescendantTickets: true
@@ -127,7 +127,7 @@ cas:
           user: root
           password: chenjinjie
           passwordEncoder:
-            type: cn.edu.zsjs.cas.PortalPasswordEncoder
+            type: cn.edu.abouerp.cas.PortalPasswordEncoder
             characterEncoding: UTF-8
             encodingAlgorithm: MD5
 

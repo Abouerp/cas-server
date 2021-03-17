@@ -1,10 +1,10 @@
-package cn.edu.zsjs.cas;
+package cn.edu.abouerp.cas;
 
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * @author techial
+ * @author Abouerp
  */
 public class PortalPasswordEncoder implements PasswordEncoder {
     private final PasswordEncoder passwordEncoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
